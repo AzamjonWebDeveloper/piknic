@@ -1,12 +1,13 @@
-import { useState } from 'react'
-
+// import { useState } from 'react'
+import {react} from 'react'
+import ContactComponent from './page/ContactComponent.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
    <div >
-    Hello   Salom AZAMJON QOSHILDI
+    <ContactComponent/>
    </div>
   )
 }
